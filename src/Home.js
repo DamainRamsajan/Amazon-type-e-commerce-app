@@ -6,24 +6,40 @@ function Home() {
     return (
         <div className = "home">            
             <div className = "home__container">
-                <img className ="home__image" src ="/images/calabashBanner.jpg" alt ="" border = "0" />
+                <img className ="home__image" src ="/images/sciBg.jpg" alt ="" border = "0" />
                
 
                 <div className = "home__row">
+                <Product 
+                    id= "0011"
+                     title = "FancyPans Steel Drum w/ Stand."
+                     price ={399.00} 
+                     image = "/images/fancyPan.jpg" alt =""
+                     rating = {3}
+                     />
+                <Product 
+                    id= "0010"
+                     title = "The double second pan: Used for melody, counterpoint and harmonies."
+                     price ={2400.00} 
+                     image = "/images/doublePan.jpg" alt =""
+                     rating = {5}
+                     />
                     <Product 
                     id= "001"
                     title = "Rhythm Band GStyle Minipan Steel Drum in G Major"
-                     price ={699.99} 
+                     price ={999.99} 
                      image = "/images/panLand.jpg" alt =""
                      rating = {4}
                      />
                     <Product 
                     id= "002"
                      title = "Panyard stainless steel Jambie jam Pan"
-                     price ={819.99} 
+                     price ={1119.99} 
                      image = "/images/ssPan.jpg" alt =""
                      rating = {5}
                      />
+
+                     
                 </div>
 
                 <div className = "home__row">
