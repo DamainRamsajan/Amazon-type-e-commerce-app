@@ -28,4 +28,11 @@
     margin-top: 10px;
     border-color: #a8734a #9c7e31 #846a29;
     color: #111;
+    cursor: pointer;
+}
+
+.subtotal > button:hover {
+    color:rgb(14, 13, 12);
+    background-color: #9ae48c;
+    transition: all 0.2s;  
 }

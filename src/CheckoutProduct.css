@@ -14,8 +14,16 @@
     border: 1px solid;
     margin-top: 10px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
+.checkoutProduct__info > button:hover {
+    color:rgb(32, 32, 29);
+    background-color: #e0c5c5;
+    transition: all 0.2s;
+    
+    
+}
 .checkoutProduct__image {
     object-fit: contain;
     width: 180px;

@@ -54,6 +54,7 @@
     border: 1px solid;
     margin-top: 10px;
     font-size: large;
+    cursor: pointer;
 }
 
 .login__registerButton {
@@ -64,4 +65,5 @@
     border: 1px solid;
     margin-top: 10px;
     font-size: large;
+    cursor: pointer;
 }

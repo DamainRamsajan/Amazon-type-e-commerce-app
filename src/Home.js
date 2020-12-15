@@ -6,8 +6,7 @@ function Home() {
     return (
         <div className = "home">            
             <div className = "home__container">
-                <img className ="home__image" src ="/images/sciBg.jpg" alt ="" border = "0" />
-               
+                <img className ="home__image" src ="/images/calabashBanner3.jpg" alt ="" border = "0" />               
 
                 <div className = "home__row">
                 <Product 
